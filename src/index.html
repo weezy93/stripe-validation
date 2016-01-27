@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Stripe API Practice</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <h1> Stripe API Practice </h1>
+​
+  <label for="card-number">Credit Card Number</label>
+  <input class='card-number' placeholder='0123 4567 8901 0123'></input><br>
+​
+  <label for="card-cvc">CVC</label>
+  <input class='card-cvc' placeholder="123"></input><br>
+​
+  <label for="card-expiry">Exp Date</label>
+  <input class='card-expiry' placeholder="12/2018"></input><br>
+​
+  <button class='order'>Place Order!</button>
+​
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+  <script type="text/javascript" src='https://checkout.stripe.com/checkout.js'></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
